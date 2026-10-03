@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Antenna -->
+  <path d="M 64 34 L 64 12" stroke="#3c280a" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="64" cy="12" r="4" fill="#a0c850"/>
+  
+  <!-- Handle bar -->
+  <path d="M 24 34 C 24 14, 104 14, 104 34" fill="none" stroke="#3c280a" stroke-width="6"/>
+
+  <!-- Body of the transmitter -->
+  <rect x="14" y="34" width="100" height="74" rx="15" fill="#dcc882" stroke="#3c280a" stroke-width="6"/>
+  
+  <!-- Screen -->
+  <rect x="44" y="44" width="40" height="18" rx="4" fill="#3c280a"/>
+  
+  <!-- Left Gimbal Outline -->
+  <circle cx="36" cy="80" r="14" fill="none" stroke="#3c280a" stroke-width="4"/>
+  <!-- Left Gimbal Crosshair -->
+  <line x1="22" y1="80" x2="50" y2="80" stroke="#3c280a" stroke-width="2" opacity="0.5"/>
+  <line x1="36" y1="66" x2="36" y2="94" stroke="#3c280a" stroke-width="2" opacity="0.5"/>
+  <!-- Left Stick -->
+  <circle cx="36" cy="80" r="6" fill="#a0c850"/>
+  
+  <!-- Right Gimbal Outline -->
+  <circle cx="92" cy="80" r="14" fill="none" stroke="#3c280a" stroke-width="4"/>
+  <!-- Right Gimbal Crosshair -->
+  <line x1="78" y1="80" x2="106" y2="80" stroke="#3c280a" stroke-width="2" opacity="0.5"/>
+  <line x1="92" y1="66" x2="92" y2="94" stroke="#3c280a" stroke-width="2" opacity="0.5"/>
+  <!-- Right Stick -->
+  <circle cx="92" cy="80" r="6" fill="#a0c850"/>
+  
+  <!-- Switches -->
+  <path d="M 26 28 L 22 18" stroke="#3c280a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 102 28 L 106 18" stroke="#3c280a" stroke-width="4" stroke-linecap="round"/>
+</svg>

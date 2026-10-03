@@ -1,0 +1,160 @@
+#fpv-overlay-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  pointer-events: none;
+  z-index: 2147483647; /* Max z-index */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* padding-bottom and gap will be set via JS */
+}
+
+.fpv-stick-box {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.fpv-stick-crosshair-x,
+.fpv-stick-crosshair-y {
+  position: absolute;
+  /* background-color will be set via JS */
+}
+
+.fpv-stick-crosshair-x {
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  transform: translateY(-50%);
+}
+
+.fpv-stick-crosshair-y {
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 100%;
+  transform: translateX(-50%);
+}
+
+.fpv-stick-indicator {
+  position: absolute;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+/* Modals */
+#fpv-modal-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(30, 30, 30, 0.95);
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  z-index: 2147483647;
+  pointer-events: auto; /* Clickable */
+  min-width: 320px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  border: 1px solid #555;
+  backdrop-filter: blur(5px);
+}
+
+#fpv-modal-container h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #eee;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.fpv-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #555;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.fpv-modal-header label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.fpv-modal-header input[type="checkbox"] {
+  margin: 0;
+}
+
+.fpv-form-group {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fpv-form-group label {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.fpv-form-group input[type="range"] {
+  width: 130px;
+}
+.fpv-form-group input[type="color"] {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.fpv-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.fpv-btn:hover {
+  background: #0056b3;
+}
+
+.fpv-btn-secondary {
+  background: #555;
+}
+
+.fpv-btn-secondary:hover {
+  background: #444;
+}
+
+.fpv-hidden {
+  display: none !important;
+}
+
+#fpv-calibration-msg {
+  font-size: 15px;
+  color: #ffaa00;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background: rgba(0,0,0,0.3);
+  border-radius: 4px;
+}
