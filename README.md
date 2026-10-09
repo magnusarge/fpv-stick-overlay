@@ -1,16 +1,27 @@
 # FPV Stick Overlay
 
-A Chrome Extension designed specifically for FPV drone pilots and simulator enthusiasts. It reads inputs from your USB or Bluetooth radio transmitter (or standard gamepad) and displays them as a stylish, fully customizable on-screen overlay. 
+Show your USB or Bluetooth radio stick inputs directly on a screen while playing browser-based FPV simulators.
 
-Works seamlessly with browser-based FPV simulators (like WebFPV, FPV Freerider) and other controller-supported web games.
+If you spend your time in web simulators and need a simple way to visualize your inputs, this extension displays a customizable overlay with a real-time representation of your stick movements, read directly from your USB or Bluetooth radio through the browser.
 
-## Features
+Some browser simulators already have a built-in stick overlay. To use this one, simply disable the native one and enjoy a more customizable experience, where you can scale the sticks up to a bigger size, for a clearer view necessary when demonstrating something to someone.
 
-* **Smart Calibration:** Simple 8-step interactive calibration learns your controller's physical limits and directions in seconds. No need for manual axis mapping or inversion.
-* **Fully Customizable Design:** Adjust box sizes, spacing, on-screen position, border radius, background opacity, and the exact colors of the crosshairs and stick markers.
-* **Throttle Percentage:** Display a real-time throttle value (0-100%) under the stick of your choice.
-* **Real-Time Sync:** Settings and calibration profiles are saved locally and synchronize instantly across all open tabs.
-* **Privacy First:** 100% local. No analytics, no remote code, no tracking.
+Using external gamepad viewers, OBS plugins, or window-capture methods to display your sticks is a hassle; this extension does it all natively! It's incredibly useful if you do any streaming, recording of tutorials, or just want to see your own stick dynamics while doing freestyle practices, seeing where muscle memory fails you.
+
+Fast calibration. No more guessing which axes inverts, what channel controls what, or if you're even using mode 1 or 2. This plugin does it all for you, by simply placing the sticks at their extremes when prompted.
+
+Visual customization. Want to see everything in a bigger scale? Tweak some margins, spacing, screen position, border radius, background opacity, and colors. You can customize every single element.
+
+Throttle percentage display. Want to see a 0-100% text display of the percentage you're pushing your throttle stick? Toggle it!
+
+Live updates. Changed something in one tab? It changes everywhere the extension is loaded.
+
+## How to get started:
+- Connect your radio and open your web simulator.
+- Click the extension icon to open the settings
+- Hit "Calibrate Controller" and follow the prompt.
+- Tweak the colors and sizes.
+- Close the menu and fly!
 
 ## Installation (Developer Mode)
 
